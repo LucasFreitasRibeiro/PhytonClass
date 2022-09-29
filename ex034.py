@@ -1,5 +1,5 @@
 salario = float(input('Digite o salário do funcionário: R$'))
-if salario <= 1250:
+if salario <= 1350:
     aumento = (salario * 15 / 100 ) + salario
 else:
     aumento = (salario * 10 / 100) + salario
